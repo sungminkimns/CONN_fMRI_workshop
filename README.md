@@ -1,2 +1,3 @@
-# CONN_fMRI_workshop
-Resting-state fMRI preprocessing, quality control, and functional connectivity analyses using CONN Toolbox and the NYU Test-Retest dataset.
+# Resting-State fMRI Connectivity Analysis Using CONN Toolbox
+## Overview
+This repository stores hands - on experience in rs-fMRI preprocessing; quality control; and functional connectivity analysis using the CONN Toolbox
