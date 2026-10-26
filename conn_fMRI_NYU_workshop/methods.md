@@ -76,7 +76,7 @@ References
 
 [4] Nieto-Castanon, A. (2020). Functional Connectivity measures. In Handbook of functional connectivity Magnetic Resonance Imaging methods in CONN (pp. 26–62). Hilbert Press.
 
-##RRC
+## RRC
 First-level analysis RRC_01: ROI-to-ROI connectivity (RRC) matrices were estimated characterizing the functional connectivity between each pair of regions among 564 ROIs. Functional connectivity strength was represented by Fisher-transformed bivariate correlation coefficients from a general linear model (weighted-GLM[4]), estimated separately for each pair of ROIs, characterizing the association between their BOLD signal timeseries. Individual scans were weighted by a boxcar signal characterizing each individual task or experimental condition convolved with an SPM canonical hemodynamic response function and rectified.
 
 References
