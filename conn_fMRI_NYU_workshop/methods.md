@@ -62,7 +62,9 @@ References
 [25] Satterthwaite, F. E. (1946). An approximate distribution of estimates of variance components. Biometrics bulletin, 2(6), 110-114.
 
 # 1st-level Analysis
+
 ## SBC
+
 First-level analysis SBC_01: Seed-based connectivity maps (SBC) and ROI-to-ROI connectivity matrices (RRC) were estimated characterizing the patterns of functional connectivity with 432 ROIs. Functional connectivity strength was represented by Fisher-transformed bivariate correlation coefficients from a weighted general linear model (weighted-GLM[4]), defined separately for each pair of seed and target areas, modeling the association between their BOLD signal timeseries.
 
 References
@@ -73,6 +75,7 @@ References
 [3] Penny, W. D., Friston, K. J., Ashburner, J. T., Kiebel, S. J., & Nichols, T. E. (Eds.). (2011). Statistical parametric mapping: the analysis of functional brain images. Elsevier.
 
 [4] Nieto-Castanon, A. (2020). Functional Connectivity measures. In Handbook of functional connectivity Magnetic Resonance Imaging methods in CONN (pp. 26–62). Hilbert Press.
+
 ##RRC
 First-level analysis RRC_01: ROI-to-ROI connectivity (RRC) matrices were estimated characterizing the functional connectivity between each pair of regions among 564 ROIs. Functional connectivity strength was represented by Fisher-transformed bivariate correlation coefficients from a general linear model (weighted-GLM[4]), estimated separately for each pair of ROIs, characterizing the association between their BOLD signal timeseries. Individual scans were weighted by a boxcar signal characterizing each individual task or experimental condition convolved with an SPM canonical hemodynamic response function and rectified.
 
@@ -86,6 +89,7 @@ References
 [4] Nieto-Castanon, A. (2020). Functional Connectivity measures. In Handbook of functional connectivity Magnetic Resonance Imaging methods in CONN (pp. 26–62). Hilbert Press.
 
 #2nd-level Analysis
+
 Group-level analyses were performed using a General Linear Model (GLM[4]). For each individual voxel a separate GLM was estimated, with first-level connectivity measures at this voxel as dependent variables (one independent sample per subject and one measurement per task or experimental condition, if applicable), and groups or other subject-level identifiers as independent variables. Voxel-level hypotheses were evaluated using multivariate parametric statistics with random-effects across subjects and sample covariance estimation across multiple measurements. Inferences were performed at the level of individual clusters (groups of contiguous voxels). Cluster-level inferences were based on parametric statistics from Gaussian Random Field theory[5,6]. Results were thresholded using a combination of a cluster-forming p < 0.001 voxel-level threshold, and a familywise corrected p-FDR < 0.05 cluster-size threshold[7].
 
 References
