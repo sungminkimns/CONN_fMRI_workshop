@@ -88,7 +88,7 @@ References
 
 [4] Nieto-Castanon, A. (2020). Functional Connectivity measures. In Handbook of functional connectivity Magnetic Resonance Imaging methods in CONN (pp. 26–62). Hilbert Press.
 
-#2nd-level Analysis
+# 2nd-level Analysis
 
 Group-level analyses were performed using a General Linear Model (GLM[4]). For each individual voxel a separate GLM was estimated, with first-level connectivity measures at this voxel as dependent variables (one independent sample per subject and one measurement per task or experimental condition, if applicable), and groups or other subject-level identifiers as independent variables. Voxel-level hypotheses were evaluated using multivariate parametric statistics with random-effects across subjects and sample covariance estimation across multiple measurements. Inferences were performed at the level of individual clusters (groups of contiguous voxels). Cluster-level inferences were based on parametric statistics from Gaussian Random Field theory[5,6]. Results were thresholded using a combination of a cluster-forming p < 0.001 voxel-level threshold, and a familywise corrected p-FDR < 0.05 cluster-size threshold[7].
 
